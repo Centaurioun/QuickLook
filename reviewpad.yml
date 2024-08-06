@@ -123,5 +123,5 @@ workflows:
     run:
       # Fail Reviewpad check on pull requests that modify any LICENSE;
       - if: $hasFilePattern("**/LICENSE*")
-        then: $fail("License files cannot be modified")
 
+        then: $fail("License files cannot be modified")
